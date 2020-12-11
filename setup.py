@@ -16,7 +16,7 @@ setuptools.setup(
     author="Oskar Triebe",
     url="https://github.com/ourownstory/AR-Net",
     packages=setuptools.find_packages(),
-    python_requires=">=3.8",
+    python_requires=">=3.6",
     install_requires=requirements,
     extras_require={
         "dev": ["black"],
